@@ -4,6 +4,7 @@ tmp/
 dist/
 
 .bowerrc
+.codeclimate.yml
 .editorconfig
 .ember-cli
 .travis.yml
