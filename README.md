@@ -1,6 +1,8 @@
-# Ember-django-csrf
+# Ember Django CSRF
 
 This README outlines the details of collaborating on this Ember addon.
+
+Add Django based CSRF protection to your Ember application.
 
 ## Installation
 
