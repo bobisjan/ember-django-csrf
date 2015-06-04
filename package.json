@@ -20,6 +20,9 @@
   },
   "author": "Jan Bobisud",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bobisjan/ember-django-csrf/issues"
+  },
   "devDependencies": {
     "broccoli-asset-rev": "^2.0.2",
     "ember-cli": "0.2.7",

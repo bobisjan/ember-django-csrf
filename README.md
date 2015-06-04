@@ -1,6 +1,6 @@
 # Ember Django CSRF
 
-This README outlines the details of collaborating on this Ember addon.
+[![Build Status](https://travis-ci.org/bobisjan/ember-django-csrf.svg?branch=master)](https://travis-ci.org/bobisjan/ember-django-csrf) [![Code Climate](https://codeclimate.com/github/bobisjan/ember-django-csrf/badges/gpa.svg)](https://codeclimate.com/github/bobisjan/ember-django-csrf) [![Dependency Status](https://david-dm.org/bobisjan/ember-django-csrf.svg)](https://david-dm.org/bobisjan/ember-django-csrf)
 
 Add Django based CSRF protection to your Ember application.
 
