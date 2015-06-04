@@ -4,24 +4,23 @@
 
 Add Django based CSRF protection to your Ember application.
 
+This addon requires a meta tag named `X-CSRFToken` provided within `index.html` file. You can use [Django Ember Index](http://bobisjan.com/django-ember-index/) as a provider of the `index.html` file.
+
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+* `ember install ember-django-csrf`
 
-## Running
+The CSRF protection is enabled by default on every AJAX request with `X-CSRFToken` header. You can specify an URL pattern in `config/environment.js` to protect only a subset of requests.
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+```javascript
 
-## Running Tests
+var ENV = {
+  ...
+  django: {
+    csrf: '^api'
+  }
+};
+```
+## License
 
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+Ember Django CSRF is available under the MIT license. See the LICENSE file for more info.
