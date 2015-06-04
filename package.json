@@ -1,6 +1,6 @@
 {
   "name": "ember-django-csrf",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Add Django based CSRF protection to your Ember application.",
   "directories": {
     "doc": "doc",
